@@ -1,31 +1,30 @@
-<<<<<<< HEAD
-# IocAngularNotesrememberFerrancollado
+# Noteremmeber - Ferran Collado Anglada
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+## Descripció
 
-## Development server
+Noteremmeber és una aplicació web per gestionar notes i recordatoris de forma senzilla i ràpida. Permet crear, editar, eliminar i organitzar notes amb etiquetes o categories, amb cerca integrada i persistència local. L'objectiu principal és practicar i demostrar els fonaments d'Angular per crear aplicacions single-page modernes i funcionals.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Stack Tècnic
 
-## Code scaffolding
+- **Framework principal**: Angular (versió 18 o superior)
+- **Llenguatge de plantilles i estils**: HTML + SCSS (Sass)
+- **Gestió d'estat**: Services + RxJS
+- **Altres eines**:
+  - Angular CLI
+  - TypeScript
+  - Standalone Components (sense NgModules en la majoria de casos)
+  - Angular Router per a navegació
+  - LocalStorage per a persistència de dades (de moment)
+  - ESLint + Prettier (format i qualitat de codi)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estat actual del projecte
 
-## Build
+**Configuració inicial completada i verificada**  
+(Branca `ra1-setup` o equivalent)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-"Porjecte de prova" 
->>>>>>> c161fa622463e575ad1bb87426308b3e540416cf
+- Projecte creat amb `ng new`
+- SCSS configurat com a estil per defecte
+- Components standalone activats
+- Routing bàsic i components inicials implementats
+- Comprovacions: `ng serve` funciona correctament sense errors
+- .gitignore i README inicial creats
